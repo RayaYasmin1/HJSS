@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="HJSS:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/HJSS_jar</output-path>
+    <root id="archive" name="HJSS.jar">
+      <element id="module-output" name="HJSS" />
+    </root>
+  </artifact>
+</component>
