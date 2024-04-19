@@ -5,7 +5,7 @@ public class Main {
         boolean exitRequested = false;
         while (!exitRequested) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Welcome to The Hatfield Junior Swimming School App");
+            System.out.println("Welcome To The Hatfield Junior Swimming School (HJSS) Management System");
             System.out.println("1.Register");
             System.out.println("2.Book A Lesson");
             System.out.println("3.Coach Monthly report");
