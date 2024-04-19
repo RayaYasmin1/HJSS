@@ -114,7 +114,7 @@ public class Coach {
         // Replace with the actual path to your CSV file
         String filePath = "Timetable.csv";
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the Day: ");
+        System.out.println("Enter the Day ( Monday, Wednesday, Friday or Saturday): ");
         String specifiedDay=scanner.nextLine();
 
 

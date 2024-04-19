@@ -5,16 +5,16 @@ public class Main {
         boolean exitRequested = false;
         while (!exitRequested) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Welcome to HJSS swimming management System:");
-            System.out.println("1. Register");
-            System.out.println("2. Book A Lesson");
+            System.out.println("Welcome to The Hatfield Junior Swimming School App");
+            System.out.println("1.Register");
+            System.out.println("2.Book A Lesson");
             System.out.println("3.Coach Monthly report");
-            System.out.println("4.Attend A lesson:");
-            System.out.println("5.Change/cancel A Booking");
+            System.out.println("4.Rate a lesson");
+            System.out.println("5.Change/Cancel A Booking");
             System.out.println("6.Learner Monthly Report");
             System.out.println("7.Exit");
 
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your choice (1-7): ");
             int choice = scanner.nextInt();
 
             switch (choice) {
