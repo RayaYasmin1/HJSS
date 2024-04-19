@@ -137,7 +137,7 @@ class Learner {
         scanner.nextLine();
         System.out.println("Which action do you want to do?:");
         System.out.println("1.Cancel");
-        System.out.println("2.Update Booking");
+        System.out.println("2.Change Booking");
         String choice=scanner.nextLine();
         switch (choice) {
             case "1":
@@ -244,7 +244,7 @@ class Learner {
 
     public static void attendALesson(){
 
-        System.out.print("Enter the lesson id: ");
+
 
         int LessonId;
         while (true) {
@@ -262,7 +262,7 @@ class Learner {
         scanner.nextLine();
         System.out.print("Write a lesson review: ");
         String LessonReview=scanner.nextLine();
-        System.out.print("Rate the lesson(1-5): ");
+
 
 
         while (true) {

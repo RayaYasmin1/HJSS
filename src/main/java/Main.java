@@ -5,17 +5,16 @@ public class Main {
         boolean exitRequested = false;
         while (!exitRequested) {
             Scanner scanner = new Scanner(System.in);
-            System.out.println("\n");
             System.out.println("Welcome To The Hatfield Junior Swimming School (HJSS) Management System");
             System.out.println("1.Register");
             System.out.println("2.Book A Lesson");
             System.out.println("3.Coach Monthly report");
             System.out.println("4.Rate a lesson");
-            System.out.println("5.Update/Cancel A Booking");
+            System.out.println("5.Change/Cancel A Booking");
             System.out.println("6.Learner Monthly Report");
             System.out.println("7.Exit");
 
-            System.out.print("Enter your choice (1-7): ");
+            System.out.println("Enter your choice (1-7): ");
             int choice = scanner.nextInt();
 
             switch (choice) {
@@ -31,6 +30,7 @@ public class Main {
                 }
                 default -> System.out.println("Invalid choice. Please select a valid option.");
             }
+
         }
     }
 }
